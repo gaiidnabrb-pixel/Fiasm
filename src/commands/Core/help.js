@@ -113,8 +113,8 @@ export async function createInitialHelpMenu(client) {
     embed.setTimestamp();
 
     const bugReportButton = new ButtonBuilder()
-        .setCustomId(BUG_REPORT_BUTTON_ID)
-        .setLabel("Report Bug")
+        .setCustomId()
+        .setLabel("")
         .setStyle(ButtonStyle.Danger);
 
     const supportButton = new ButtonBuilder()
