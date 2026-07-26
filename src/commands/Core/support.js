@@ -6,7 +6,7 @@ import { InteractionHelper } from '../../utils/interactionHelper.js';
 const SUPPORT_SERVER_URL = "https://discord.gg/8vjTzw2pqJ";
 export default {
     data: new SlashCommandBuilder()
-    .setName("support")
+    .setName("support and appeal")
     .setDescription("Get link to the support server"),
 
   async execute(interaction) {
