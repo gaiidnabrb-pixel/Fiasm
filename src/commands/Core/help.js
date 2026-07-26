@@ -101,7 +101,7 @@ export async function createInitialHelpMenu(client) {
             },
             {
                 name: '\u200B',
-                value: `-# ${botName} is [open source](Nothing here got you)`,
+                value: `-# ${botName} is [open source] (Nothing here got you)`,
                 inline: false,
             },
         ],
@@ -113,9 +113,9 @@ export async function createInitialHelpMenu(client) {
     embed.setTimestamp();
 
     const bugReportButton = new ButtonBuilder()
-        .setCustomId(BUG_REPORT_BUTTON_ID)
-        .setLabel("Report Bug")
-        .setStyle(ButtonStyle.Danger);
+        .setCustomId( )
+        .setLabel(" ")
+        .setStyle( );
 
     const supportButton = new ButtonBuilder()
         .setLabel("Support Server And appeal Server")
