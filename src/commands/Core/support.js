@@ -14,7 +14,7 @@ export default {
       const supportButton = new ButtonBuilder()
         .setLabel("Join Support Server")
         .setStyle(ButtonStyle.Link)
-        .setURL(SUPPORT_SERVER_URL);
+        .setURL(https://discord.gg/8vjTzw2pqJ);
 
       const actionRow = new ActionRowBuilder().addComponents(supportButton);
 
